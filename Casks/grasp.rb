@@ -1,9 +1,9 @@
 cask "grasp" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.19.0"
-  sha256 arm:   "eecf718cb8a45eb6292f35545c9e671f21883b250e4f1e33224b09325b5bcdac",
-         intel: "ff3331961584496e2acffdef899debde70437106febeb4918341a807b6ebfe62"
+  version "0.19.1"
+  sha256 arm:   "2920ced1c310ee25f6befcccf9140a1e5a24ac1b13b7c2be9a9e53bd9c8b9074",
+         intel: "e99459871c1be8dc3a258e4de73d40b5b9a61677823ce4e97bb9b9ddf887ebcd"
 
   url "https://downloads.graspable.dev/releases/#{version}/grasp-#{version}-darwin-#{arch}.tar.gz",
       verified: "downloads.graspable.dev/"
